@@ -1,0 +1,218 @@
+#body{
+   background-color: #00b8c4 ;
+    min-height: 100%;
+    overflow-x: hidden;
+   
+}
+.commonclass{
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.rowone{
+    color: white;
+    margin-left: 30%;
+    margin-top: 5%;
+    min-width: 100%;
+    display: block;
+   
+}
+.rowone h6{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box{
+  border-radius: 15px;
+  border: 2px solid skyblue;
+  padding: 20px;
+  width: 90%;
+  height: 300px;
+}
+.rowthree{
+    margin-bottom: 40px;
+}
+.card{
+    height: 200px;
+    width: 320px;
+    margin-left: 60px;
+    border-radius: 0 30px 30px 30px;
+}
+.secondblock{
+    background-color: #164f44 ;
+    color: #23b3b8;
+    border-radius: 0 30px 0 0;
+    margin: 20px 20px 0 30px;
+    
+}
+.firstblock{
+    background-color: #34c3eb ;
+    color: white;
+    border-radius: 0 30px 0 0;
+    margin: 20px 20px 0 30px; 
+}
+.card-title{
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+}
+.secondcard{
+    background-color:#34c3eb ;
+    
+}
+.secondcard .card-text{
+    color:#164f44 ;
+}
+.card-text{
+    font-size: 12px;
+    color: #34c3eb;
+    
+}
+#one{
+    margin: 0 0 0 20px;
+}
+.numbers{
+    margin: 0 0 0 -40px;
+}
+.logotop{
+   width: 70px;
+    margin-left: 18%;
+}
+.circleLarge{
+    
+    background-color: white;
+    border-radius: 45px;
+    position: absolute;
+    z-index: 99;
+    width: 90px;
+    height: 85px;
+    padding: 12px;   
+}
+.circleOuter{
+    background-color: #34c3eb;
+    border-radius: 45px;
+    position: absolute;
+    z-index: 99;
+    width: 90px;
+    height: 85px;
+    
+    padding: 12px;    
+}
+.circlemiddle{
+    background-color: #00b8c4;
+    
+    border-radius: 45px;
+    position: absolute;
+    z-index: 99;
+    width: 89px;
+    height: 89px;
+    margin: -15px 0px 0px -20px;
+    padding: 10px;    
+}
+.circle{
+    background-color: #20e3cc;;
+    color: #3abbdf;
+    border-radius: 35px;
+    position: absolute;
+    z-index: 99;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+.circlesmall{
+    background-color: white;
+    color: #3abbdf;
+    border-radius: 35px;
+    position: absolute;
+    z-index: 99;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+.vertical{
+    border-left: 4px solid skyblue;
+    height: 30px;
+    margin-left: 50%;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .box{
+        min-height: 850px;
+        min-width: 90%;
+    }
+    .card{
+        max-width: 250px;
+        min-height: 250px;
+        margin-left: 40px;
+        
+    }
+    #one{
+        margin: 0 0 0 0px;
+}
+
+    .rowone{
+        margin-left: 20px;
+    }
+    .logotop{
+        margin-left: 33%;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.rowtwo{
+    min-height: 100%;
+}
+ .card{
+        min-width: 250px;
+        max-width: 280px;
+        min-height: 280px;
+        margin-left: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .box{
+        min-height: 720px;
+        min-width: 90%;
+    }
+    .card{
+        min-width: 250px;
+        max-width: 280px;
+        min-height: 280px;
+        margin-left: 50px;
+        
+    }
+    #one{
+        margin: 0 0 0 5px;
+}
+    
+    .rowone{
+        margin-left: 25%;
+    }
+    .logotop{
+        margin-left: 20%;
+    }
+
+    .card-text{
+        font-size: 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .box{
+        min-height: 350px;
+        min-width: 90%;
+    }
+    .card-deck{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

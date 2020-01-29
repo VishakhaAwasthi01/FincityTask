@@ -1,0 +1,130 @@
+
+footer { width:100%; background-color:#ebf5f3; min-height:250px; 
+    overflow-x: hidden;
+}
+.pt2 { 
+    padding-top:40px ; 
+    margin-bottom:20px ;}
+.footer span{
+    margin-left: 10px;
+
+}
+.footer img{
+    max-width: 200px;
+}
+
+.pdt{padding-top:25px !important ; margin-bottom:20px ;}
+
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin-left:10px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:black;}
+.footer_ul_amrc li a:hover{ color:black; text-decoration:none;}
+#footer{
+    margin-left: 45px;
+}
+
+
+.btn-primary{
+    display: inline-block;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    width: 150px;
+    height: 60px;
+    background-color: #00b8c4;
+    border: none;
+}
+.blocktwo{
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+.fincity{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px; 
+}
+/* Media Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .btn-primary{
+       max-width: 110px;
+       margin-left: 20px;
+       white-space: normal !important;
+       word-wrap: break-word !important;
+     margin-top: 20px;
+      height: 50px;
+      font-size: 10px;
+   }
+   .blocktwo{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+iframe{
+    width: 200px;
+}
+
+.footer_ul_amrc {
+   margin-right: 50px !important;
+} 
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .btn-primary{
+        display: inline-block;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        width: 150px;
+        height: 60px;
+        margin: 10px;
+        background-color: #00b8c4;
+        border: none;
+    }
+    .blocktwo{
+     margin-top: 30px;
+     width: 100px;
+     height: 50px;
+     margin-left: 0px;
+ }
+ iframe{
+     width: 300px;
+ }
+ .footer_ul_amrc {
+    margin-right: 50px !important;
+} 
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    iframe{
+        width: 300px;
+    }
+    .footer_ul_amrc {
+        margin-right: 50px !important;
+    }
+    .btn-primary{
+        margin-top: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    iframe{
+        width: 200px;
+    }
+    .footer_ul_amrc {
+        margin-left: 10px !important;
+    }
+    .btn-primary{
+        margin-top: 10px;
+    }
+
+}
